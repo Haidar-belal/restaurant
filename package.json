@@ -1,0 +1,32 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "restaurant",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "H.B,H.B",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sequelize-cli": "^6.5.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.16.3",
+    "express-handlebars": "^6.0.6",
+    "faker": "^5.5.3",
+    "joi": "^17.8.3",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^1.6.1",
+    "pug": "^3.0.2",
+    "sequelize": "^5.0.0-beta.11"
+  }
+}
